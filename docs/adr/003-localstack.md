@@ -33,8 +33,10 @@ We will integrate LocalStack into the development workflow to emulate AWS servic
 
 ## Alternatives Considered
 - Use SST with live AWS resources (current default).
-    :arrow_right: *Pros:* Simplifies configuration.
-    :arrow_right: *Cons:* Generates AWS costs, slower feedback, requires internet, and can clutter dev AWS accounts.
+
+    *Pros:* Simplifies configuration.
+
+    *Cons:* Generates AWS costs, slower feedback, requires internet, and can clutter dev AWS accounts.
 
 - Use LocalStack only for CI (skip for local dev).
     :x: *Rejected for now:* Using LocalStack both locally and in CI offers consistency.

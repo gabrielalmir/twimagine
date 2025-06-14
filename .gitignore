@@ -1,2 +1,10 @@
 node_modules/
+.sst/
 .env
+.env.local
+dist/
+tmp/
+*.log
+.DS_Store
+.vscode/
+.idea/
